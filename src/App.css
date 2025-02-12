@@ -12,3 +12,21 @@ body{
   color: #333;
   overflow:hidden;
 }
+.game-header-title {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+  background-color: #f9f5f9;
+}
+  .game-body {
+    background-color: #f5ecf4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.u-center {
+    text-align: center;
+}
+
+
