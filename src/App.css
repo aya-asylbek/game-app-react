@@ -1,2 +1,14 @@
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
 
-
+body{
+  font-size: 1.6rem;
+  max-width: 68.75em;
+  margin: 0 auto;
+  font-family: "Press Start 2P", system-ui;
+  padding: 1rem 0;
+  color: #333;
+  overflow:hidden;
+}
