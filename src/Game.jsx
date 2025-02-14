@@ -35,7 +35,7 @@ function Game({ title }) {
     const handleGuessSubmit = () => {
         if (gameWon || gameLost) return;
 
-        const guess = parseInt(currentGuess, 3);
+        const guess = parseInt(currentGuess, 10);
         if (isNaN(guess)) {
             setMessage("Please enter a valid number.");
             return;
