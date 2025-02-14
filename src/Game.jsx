@@ -1,6 +1,16 @@
-import React from 'react';
+import React,{ useState } from 'react';
 
 function Game(props){
+    const [targetNumber,setTargetNumber] = useState(null);
+    const [currentGuess,setCurrentGuess] = useState('');
+    const [attemptsLeft,setAttemptLeft] = useState(10);
+    const [message ,setMessage] =  useState('');
+    const [gameWon ,setGameWon] = useState(false);
+    const [gameeLost,setGameLost]= useState(false);
+    
+    
+    
+    
     return (
         <div className="game-area">
             <header className="game-header">
