@@ -1,18 +1,22 @@
 html{
   font-size: 62.5%;
   box-sizing: border-box;
-  background-color: #f9f5f9;
+  background-color:#fbe2ed;
 }
 
 body{
-  font-size: 1.6rem;
-  max-width: 68.75em;
-  margin: 0 auto;
-  font-family: "Press Start 2P", system-ui;
-  padding: 1rem 0;
-  color: #333;
-  overflow:hidden;
+  background-image:url(public/background.jpg);
+  background-position: center;
+  background-color: #fbe2ed;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  margin:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15%;
 }
+
 .game-header-title {
   font-size: 2rem;
   color: #333;
