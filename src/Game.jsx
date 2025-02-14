@@ -1,4 +1,4 @@
-import React,{ useState } from 'react';
+import React,{ useState, useEffect } from 'react';
 
 function Game(props){
     const [targetNumber,setTargetNumber] = useState(null);
@@ -8,7 +8,10 @@ function Game(props){
     const [gameWon ,setGameWon] = useState(false);
     const [gameeLost,setGameLost]= useState(false);
     
-    
+    //Initialize game
+    useEffect(() => {
+        startNewGame();
+    } [];
     
     
     return (
