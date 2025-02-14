@@ -1,11 +1,12 @@
 import React from "react";
 import Game from "./Game";
+import "./App.css";
 
 function App() {
    return (
     <>
-    <h1>Guess My Number</h1>
-    <Game />
+    
+    <Game title="Guess a number between 1 and 100" />
       </>
   )
 }
