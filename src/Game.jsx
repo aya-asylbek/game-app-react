@@ -35,7 +35,7 @@ function Game({ title }) {
     const handleGuessSubmit = () => {
         if (gameWon || gameLost) return;
 
-        const guess = parseInt(currentGuess, 10);
+        const guess = parseInt(currentGuess, 3);
         if (isNaN(guess)) {
             setMessage("Please enter a valid number.");
             return;
@@ -65,7 +65,7 @@ function Game({ title }) {
     return (
         <div className="game-area">
             <header className="game-header">
-                <h2 className="game-header-title">{title}</h2>
+                <h1 className="game-header-title">{title}</h1>
                 <button onClick={startNewGame}>New Game</button>
             </header>
 
