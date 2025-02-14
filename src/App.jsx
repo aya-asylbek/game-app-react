@@ -8,6 +8,6 @@ function App() {
     
     <Game title="Guess a number between 1 and 100" />
       </>
-  )
+  );
 }
 export default App

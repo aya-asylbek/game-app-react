@@ -21,13 +21,16 @@ body{
   background-color: #f9f5f9;
 }
   .game-body {
-    background-color: #f5ecf4;
+    background-color: #fdf3fc;
     padding: 20px;
     border-radius: 8px;
+    align-items: center;
 }
 
 .u-center {
     text-align: center;
 }
-
+button{
+  align-items: center;
+}
 
