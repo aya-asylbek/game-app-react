@@ -1,33 +1,34 @@
 html{
-  font-size: 62.5%;
+  font-size: 80%;
   box-sizing: border-box;
-  background-color:#fbe2ed;
 }
 
 body{
-  background-image:url(public/background.jpg);
+  background-image:url(valentine.jpg
+  );
   background-position: center;
-  background-color: #fbe2ed;
-  background-attachment:fixed;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  /* background-color: #fbe2ed; */
   margin:0;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 15%;
+  padding: 18%;
 }
 
-.game-header-title {
+/* .game-header-title {
   font-size: 2rem;
   color: #333;
   text-align: center;
   margin: 20px 0;
   background-color: #f9f5f9;
-}
+} */
   .game-body {
-    background-color: #f5ecf4;
-    padding: 20px;
-    border-radius: 8px;
+     /* background-color: #fbf9f9; */
+     /* padding: 1px; */
+     /* border-radius: 50 px;  */
 }
 
 .u-center {
