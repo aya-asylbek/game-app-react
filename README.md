@@ -19,12 +19,15 @@ Installation
 Clone the repository to your local machine:
 
 git clone https://github.com/aya-asylbek/game-app-react
+
 Navigate to the project directory:
 
 cd number-guessing-game
+
 Install the required dependencies:
 
 npm install
+
 Start the development server:
 
 npm start
