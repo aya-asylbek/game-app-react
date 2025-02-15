@@ -8,7 +8,7 @@ Features
 
 
 A new game can be started by clicking the "New Game" button.
-The player has 3 attempts to guess the correct number.
+The player has 10 attempts to guess the correct number.
 After each guess, the game informs the player whether their guess is too high, too low, or correct.
 If the player guesses the number correctly, they win the game. If they run out of attempts, they lose.
 Displays messages to guide the user during the game.
@@ -39,7 +39,7 @@ How to Play
 The game will generate a random number between 1 and 100.
 Enter your guess in the input field and click "Submit."
 If the guess is correct, you win! If it's too high or too low, you can try again.
-You have 3 attempts to guess the correct number. If you fail, the game is over.
+You have 10 attempts to guess the correct number. If you fail, the game is over.
 Click "New Game" to start a new round.
 
 
