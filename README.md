@@ -18,7 +18,7 @@ Installation
 
 Clone the repository to your local machine:
 
-git clone https://github.com/yourusername/number-guessing-game.git
+git clone https://github.com/aya-asylbek/game-app-react
 Navigate to the project directory:
 
 cd number-guessing-game
