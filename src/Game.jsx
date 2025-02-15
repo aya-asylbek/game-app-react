@@ -14,7 +14,7 @@ function Game({ title }) {
     // Start or restart the game
     const startNewGame = () => {
         setTargetNumber(generateNumber());
-        setAttemptsLeft(3);
+        setAttemptsLeft(10);
         setCurrentGuess('');
         setGameWon(false);
         setGameLost(false);
