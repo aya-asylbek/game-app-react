@@ -3,6 +3,7 @@ Number Guessing Game
 Description
 This is a simple number guessing game built using React. The game generates a random number between 1 and 100, and the player has to guess the number within three attempts. The game provides feedback whether the guess is too high or too low, and it ends when the player either guesses the correct number or runs out of attempts.
 
+![Gameplay GIF](public/READMEimg/gameplay.gif)
 
 Features
 
@@ -41,7 +42,18 @@ Enter your guess in the input field and click "Submit."
 If the guess is correct, you win! If it's too high or too low, you can try again.
 You have 10 attempts to guess the correct number. If you fail, the game is over.
 Click "New Game" to start a new round.
-
+### On Start:
+![Start](public/READMEimg/start.png)
+### Player must enter a number between 1-100:
+![Must Enter a Num](public/READMEimg/num.png)
+### If the number is too low:
+![Num Too Low](public/READMEimg/toolow.png)
+### If the number is too high:
+![Num Too High](public/READMEimg/toohigh.png)
+### Win Screen:
+![Win](public/READMEimg/win.png)
+### Lose Screen:
+![Lose](public/READMEimg/toolow.png)
 
 Technologies Used
 React
